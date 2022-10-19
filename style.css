@@ -237,8 +237,13 @@ small {
     /* Выбор языка */
 
     /* Выбор Категории */
+
+    .category-icon {
+        width: 30px;
+    }
+    
     .category-name {
-        font-size: 14px;
+        font-size: 10px;
     }
 
     /* Выбор Категории */
