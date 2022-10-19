@@ -1,0 +1,277 @@
+.red {
+    color: red;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+    background-color: black;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    color: white;
+    font-family: 'belka';
+}
+
+
+#swipe {
+    width: 10%;
+    position: fixed;
+    bottom: 10%;
+    right: 8%;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#animation {
+    height: fit-content;
+    width: 45%;
+}
+
+/* Секция с Выбором языка */
+
+.language-select {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.language {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lang_font {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.lang-span {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flag {
+    width: 32px;
+}
+
+.main-logo {
+    width: 30%;
+}
+
+/* Секция с Выбором языка */
+
+
+/* Секция с Выбором Категории */
+
+.category-select {
+    width: 100%;
+    padding: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categories {
+    /* margin: 10px 0px; */
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.category-span {
+    margin: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.category-span:hover {
+    color: red;
+}
+
+.category-icon {
+    width: 50px;
+}
+
+.category-name {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.content-line {
+    padding: 25px 0px;
+    width: 100%;
+    background-image: url('./icons/Фон-Перегородка.svg');
+}
+
+
+/* Секция с Выбором Категории */
+
+
+/* Меню */
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+
+.title-span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.adult {
+    width: 70px;
+}
+
+.position {
+    margin-top: 5px;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 , h2 , h3,  small {
+    font-weight: normal;
+    color: white;
+    font-family: 'belka';
+}
+
+h3 {
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+}
+
+small {
+    font-size: 18px;
+} 
+
+
+
+
+
+
+/* Меню */
+
+
+@media screen and (max-width: 1023px) {
+
+    main {
+        height: 90vh;
+    }
+
+    /* Заставка */
+
+    #animation {
+        width: 80%;
+    }
+    
+    #swipe {
+        width: 15%;
+    }
+
+    /* Заставка */
+
+    #content {
+        margin-top: 10vh;
+        width: 100%;
+    }
+
+    /* Выбор языка */
+
+    .main-logo {
+        width: 50%;
+    }
+    
+    /* Выбор языка */
+
+    /* Выбор Категории */
+    .category-name {
+        font-size: 14px;
+    }
+
+    /* Выбор Категории */
+
+    /* Меню */
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 99%;
+    }
+ 
+    .adult {
+        width: 50px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+    
+    h2 {
+        font-size: 17px;
+    }
+
+    small {
+        font-size: 12px;
+    } 
+
+    .name {
+        max-width: 63%;
+    }
+    /* Меню */
+  
+    
+}

@@ -1,0 +1,186 @@
+{
+            page: 4,
+            background: "background-image: url('./backgrounds/page-4.svg');",
+            blocks:
+            [
+                {
+                    en_title: "EL'S SPECIAL:",
+                    ru_title: "EL'S ФИРМЕННОЕ:",
+                    positions:
+                    [
+                        {
+                            en_name: "CAESAR ROLL WITH NUGGETS",
+                            ru_name: "ЦЕЗАРЬ РОЛЛ С НАГГЕТСАМИ",
+                            cost: 55
+                        },
+                        {
+                            en_name: "CAESAR ROLL WITH CHICKEN",
+                            ru_name: "ЦЕЗАРЬ РОЛЛ С КУРИЦЕЙ",
+                            cost: 60
+                        }
+                    ]
+                },
+                {
+                    en_title: "SETS:",
+                    ru_title: "СЕТЫ:",
+                    positions:
+                    [
+                        {
+                            en_name: "FRI SET",
+                            ru_name: "FRI SET",
+                            cost: 100
+                        },
+                        {
+                            en_name: "PIV SET",
+                            ru_name: "PIV SET",
+                            cost: 130
+                        },
+                        {
+                            en_name: "EL'S BUCKET MINI",
+                            en_description: "( WINGS 2 PCS, STRIP 2 PCS, NUGGETS 4 PCS, HOME POTATOES )",
+                            ru_name: "EL'S BUCKET MINI",
+                            ru_description: "( КРЫЛЬЯ 2ШТ, СТРИПСЫ 2ШТ, НАГГЕТСЫ 4шт, КАРТОШКА ПО-ДЕРЕВЕНСКИ )",
+                            cost: 105
+                        },
+                        {
+                            en_name: "EL'S BUCKET MAX",
+                            en_description: "( WINGS 4PCS, STRIPES 6PCS, NUGGETS 8PCS, HOME POTATOES )",
+                            ru_name: "EL'S BUCKET MAX",
+                            ru_description: "( КРЫЛЬЯ 4ШТ, СТРИПСЫ 6ШТ, НАГГЕТСЫ 8шт, КАРТОШКА ПО-ДЕРЕВЕНСКИ )",
+                            cost: 160
+                        }
+                    ]
+                },
+                {
+                    en_title: "BURGERS:",
+                    ru_title: "БУРГЕРЫ:",
+                    positions:
+                    [
+                        {
+                            en_name: "EL'S BURGER / MAX",
+                            ru_name: "EL'S БУРГЕР / MAX",
+                            cost: "65/85"
+                        },
+                        {
+                            sub_en_name: "CHEESE + 8 LEI",
+                            sub_ru_name: "СЫР + 8 ЛЕЙ"
+                        }
+                    ]
+                },
+                {
+                    en_title: "SALADS:",
+                    ru_title: "САЛАТЫ:",
+                    positions:
+                    [
+                        {
+                            en_name: "GREEK",
+                            ru_name: "ГРЕЧЕСКИЙ",
+                            cost: 80
+                        },
+                        {
+                            en_name: "CAESAR WITH CHICKEN",
+                            ru_name: "ЦЕЗАРЬ С КУРИЦЕЙ",
+                            cost: 90
+                        },
+                        {
+                            en_name: "CAESAR SALAD WITH SHRIMPS",
+                            ru_name: "ЦЕЗАРЬ С КРЕВЕТКАМИ",
+                            cost: 135
+                        }
+                    ]
+                },
+                {
+                    en_title: "GRILL MENU:",
+                    ru_title: "ЗАКУСКИ:",
+                    positions:
+                    [
+                        {
+                            en_name: "GARLIC TOAST",
+                            sub_en_name: "250GR",
+                            ru_name: "ЧЕСНОЧНЫЕ ГРЕНКИ",
+                            sub_ru_name: "250ГР",
+                            cost: 60
+                        },
+                        {
+                            en_name: "FISH FINGERS",
+                            sub_en_name: "200GR",
+                            ru_name: "РЫБНЫЕ ПАЛОЧКИ",
+                            sub_ru_name: "200ГР",
+                            cost: 60
+                        },
+                        {
+                            en_name: "FRIED DUMPLINGS",
+                            sub_en_name: "250GR",
+                            ru_name: "ЖАРЕННЫЕ ПЕЛЬМЕНИ",
+                            sub_ru_name: "250ГР",
+                            cost: 60
+                        },
+                        {
+                            en_name: "SMELT",
+                            sub_en_name: "250GR",
+                            ru_name: "КОРЮШКА",
+                            sub_ru_name: "250ГР",
+                            cost: 60
+                        },
+                        {
+                            en_name: "CRAB CLAWS",
+                            sub_en_name: "6PCS",
+                            ru_name: "КЛЕШНИ КРАБА",
+                            sub_ru_name: "6ШТ",
+                            cost: 70
+                        },
+                        {
+                            en_name: "NAGGETS",
+                            sub_en_name: "7PCS",
+                            ru_name: "НАГГЕТСЫ",
+                            sub_ru_name: "7ШТ",
+                            cost: 50
+                        },
+                        {
+                            en_name: "FLOORED WINGS",
+                            sub_en_name: "4PCS",
+                            ru_name: "КРЫЛЬЯ В ПАНИРОВКЕ",
+                            sub_ru_name: "4ШТ",
+                            cost: 75
+                        },
+                        {
+                            en_name: "CHICKEN STICKS",
+                            sub_en_name: "8PCS",
+                            ru_name: "КУРИНЫЕ ПАЛОЧКИ",
+                            sub_ru_name: "8ШТ",
+                            cost: 50
+                        },
+                        {
+                            en_name: "STRIPES",
+                            sub_en_name: "8PCS",
+                            ru_name: "СТРИПСЫ",
+                            sub_ru_name: "8ШТ",
+                            cost: 55
+                        },
+                        {
+                            en_name: "FRENCH FRIES",
+                            ru_name: "КАРТОШКА ФРИ",
+                            cost: 40
+                        },
+                        {
+                            en_name: "HOME POTATOES",
+                            ru_name: "ПО-ДЕРЕВЕНСКИ",
+                            cost: 45
+                        },
+                        {
+                            en_name: "POTATO BALLS",
+                            ru_name: "КАРТОФЕЛЬНЫЕ ШАРИКИ",
+                            cost: 50
+                        },
+                        {
+                            sub_en_name: "CHEESE + 8 LEI",
+                            sub_ru_name: "СЫР/БРЫНЗА + 8 ЛЕЙ",
+                        },
+                        {
+                            sub_en_name: "SAUCE OF CHOICE + 8 LEI",
+                            sub_ru_name: "СОУС НА ВЫБОР + 8 ЛЕЙ",
+                        }
+                    ]
+                }
+            ]
+        },

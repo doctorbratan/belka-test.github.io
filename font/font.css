@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'belka';
+    src: url('SverdlovskRegular.eot');
+    src: local('Sverdlovsk'), local('SverdlovskRegular'),
+        url('SverdlovskRegular.eot?#iefix') format('embedded-opentype'),
+        url('SverdlovskRegular.woff2') format('woff2'),
+        url('SverdlovskRegular.woff') format('woff'),
+        url('SverdlovskRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
