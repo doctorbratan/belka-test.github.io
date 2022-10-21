@@ -2,7 +2,7 @@ const menu =
     [
         {
             page: 1,
-            background: "background-image: url('./backgrounds/page-1.svg');",
+            background: "background-image: url('./backgrounds/page-1.png');",
             blocks: 
             [
                 {
@@ -110,7 +110,7 @@ const menu =
         },
         {
             page: 2,
-            background: "background-image: url('./backgrounds/page-2.svg');",
+            background: "background-image: url('./backgrounds/page-2.png');",
             blocks: 
             [
                 {
@@ -156,7 +156,7 @@ const menu =
         {
             page: 3,
             category: "Горячее & Вкусняшки",
-            background: "background-image: url('./backgrounds/page-2.svg');",
+            background: "background-image: url('./backgrounds/page-3.png');",
             blocks: 
             [
                 {
@@ -347,7 +347,7 @@ const menu =
         {
             page: 4,
             category: "Напитки",
-            background: "background-image: url('./backgrounds/page-2.svg');",
+            background: "background-image: url('./backgrounds/page-4.png');",
             blocks: 
             [
                 {
@@ -417,7 +417,7 @@ const menu =
         },
         {
             page: 5,
-            background: "background-image: url('./backgrounds/page-3.svg');",
+            background: "background-image: url('./backgrounds/page-5.png');",
             blocks:
             [
                 {
@@ -803,7 +803,7 @@ const menu =
         },
         {
             page: 7,
-            background: "background-image: url('./backgrounds/page-5.svg');",
+            background: "background-image: url('./backgrounds/page-7.png');",
             blocks:
             [
                 {
@@ -860,7 +860,7 @@ const menu =
         },
         {
             page: 8,
-            background: "background-image: url('./backgrounds/page-6.svg');",
+            background: "background-image: url('./backgrounds/page-8.png');",
             blocks:
             [
                 {
@@ -1092,7 +1092,7 @@ const menu =
         },
         {
             page: 9,
-            background: "background-image: url('./backgrounds/page-8.svg');",
+            background: "background-image: url('./backgrounds/page-9.png');",
             blocks:
             [
                 {
@@ -1247,7 +1247,7 @@ const menu =
         },
         {
             page: 10,
-            background: "background-image: url('./backgrounds/page-9.svg');",
+            background: "background-image: url('./backgrounds/page-10.png');",
             blocks:
             [
                 {
@@ -1374,7 +1374,7 @@ const menu =
         },
         {
             page: 11,
-            background: "background-image: url('./backgrounds/page-10.svg');",
+            background: "background-image: url('./backgrounds/page-11.png');",
             blocks: [
                 {
                     en_title: "SNACKS:",
@@ -1435,7 +1435,7 @@ const menu =
         },
         {
             page: 12,
-            background: "",
+            background: "background-image: url('./backgrounds/page-12.png');",
             blocks: 
             [
                 {
