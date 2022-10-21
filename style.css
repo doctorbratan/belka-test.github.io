@@ -118,6 +118,7 @@ main {
 }
 
 .category-name {
+    font-family: 'Vin Slab Pro';
     text-align: center;
     font-size: 20px;
 }
@@ -239,11 +240,11 @@ small {
     /* Выбор Категории */
 
     .category-icon {
-        width: 30px;
+        width: 40px;
     }
     
     .category-name {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     /* Выбор Категории */
