@@ -1,0 +1,219 @@
+<!--
+    <div id="section">
+        
+        <section id="language-section">
+
+            <span class="language">
+                <span class="lang-span" onclick="loading('ru')">
+                    <h3  class="lang_font" >RU</h3>
+                    <img src="./flags/russia.png" class="flag" alt="">
+                </span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="lang-span" onclick="loading('en')">
+                    <h3  class="lang_font">ENG</h3>
+                    <img src="./flags/united-kingdom.png" class="flag" alt="">
+                </span>
+            </span>
+            <br>
+            <img v-if="language == 'en' "  class="main-logo"  src="./img/BelkaWithFlags-ENG.svg" alt="">
+            <img v-if="language == 'ru' "  class="main-logo"  src="./img/BelkaWithFlags-RUS.svg" alt="">
+        </section>
+
+        <section  v-for="page in menu.pages" v-bind:style="page.background" >
+
+            <br>
+
+            <div v-if="language == 'ru' "  v-for="block in page.blocks" class="column">
+                
+                <br>
+
+                <span class="title-span">
+                    <img  v-if="block.adult && !block.logo" class="adult" src="./img/18+.svg" alt="18+">
+                    &nbsp;&nbsp;
+                    <h1>{{block.ru_title}}</h1>
+                    &nbsp;
+                    <img  v-if="block.logo" class="block-logo" v-bind:src="block.logo" v-bind:alt="block.ru_title">
+                    &nbsp;&nbsp;
+                    <h1 v-if="block.salle" class="red" > &nbsp;&nbsp; {{block.salle}}</h1>
+                </span>
+
+               <span v-for="position in block.positions" class="column">
+                    <br> 
+                    <span class="position">
+                        <span class="name">
+                            <h2>{{position.ru_name}} <small> &nbsp; {{position.sub_ru_name}}</small> </h2>
+                            <small class="description">{{position.ru_description}}</small>
+                        </span>
+                        <span>
+                            <h2 v-if="position.new_cost">{{position.new_cost}} {{menu.cost}}</h2>
+                            <h2  v-if="position.cost"  v-bind:class="{ delete: position.action }"> {{position.cost}} {{menu.cost}}</h2>
+                        </span>
+                        
+                    </span>
+                </span>
+
+                <br>
+
+            </div>
+
+            <div v-if="language == 'en' "  v-for="block in page.blocks" class="column">
+
+                <br>
+
+                <span class="title-span">
+                    <img  v-if="block.adult && !block.logo" class="adult" src="./img/18+.svg" alt="18+">
+                    &nbsp;&nbsp;
+                    <h1>{{block.en_title}}</h1>
+                    &nbsp;
+                    <img  v-if="block.logo" class="block-logo" v-bind:src="block.logo" v-bind:alt="block.ru_title">
+                </span>
+                
+                <span v-for="position in block.positions" class="column">
+                     <br> 
+                     <span class="position">
+                         <span class="name">
+                             <h2>{{position.en_name}} <small> &nbsp; {{position.sub_en_name}}</small> </h2>
+                             <small class="description">{{position.en_description}}</small>
+                         </span>
+                         <h2 v-if="position.cost">{{position.cost}} {{menu.cost}}</h2>
+                     </span>
+                 </span>
+
+                <br>
+
+            </div>
+
+            <br>
+
+        </section> 
+
+        <section id="wine">
+            <h1 v-if="language == 'ru' " id="wine-cart" class="wine">ВИННАЯ КАРТА</h1>
+            <h1 v-if="language == 'en' " id="wine-cart" class="wine">WINE MAP</h1>
+            <div class="column">
+                <span class="title-span">
+                    <img   class="adult" src="./img/18+.svg" alt="18+">
+                    <h1 v-if="language == 'ru' ">ШАМПАНСКОЕ:</h1>
+                    <h1 v-if="language == 'en' ">CHAMPAGNE:</h1>
+                </span>
+                <br>
+
+                <span class="position">
+                    <span class="name">
+                        <h2>CRICOVA LACRIMA DULCE FREE</h2>
+                    </span>
+                    <h2>180 {{menu.cost}}</h2>
+                </span>
+                <br>
+                
+                <span class="position">
+                    <span class="name">
+                        <h2>CRICOVA MUSCAT</h2>
+                    </span>
+                    <h2>130 {{menu.cost}}</h2>
+                </span>
+                <span class="position">
+                    <span class="name">
+                        <h2>CRICOVA PINOT NOIR DEMISEC</h2>
+                    </span>
+                    <h2>130 {{menu.cost}}</h2>
+                </span>
+                <br>
+
+                <span class="position">
+                    <span class="name">
+                        <h2>CRICOVA LACRIMA DULCE</h2>
+                    </span>
+                    <h2>130 {{menu.cost}}</h2>
+                </span>
+                <span class="position">
+                    <span class="name">
+                        <h2>CRICOVA LACRIMA DULCE LIGHT</h2>
+                    </span>
+                    <h2>130 {{menu.cost}}</h2>
+                </span>
+                <span class="position">
+                    <span class="name">
+                        <h2>CRICOVA LACRIMA DULCE ROSE</h2>
+                    </span>
+                    <h2>130 {{menu.cost}}</h2>
+                </span> 
+
+            </div>
+            <div class="column">
+                <span class="title-span">
+                    <img   class="adult" src="./img/18+.svg" alt="18+">
+                    &nbsp;&nbsp;
+                    <h1 v-if="language == 'ru' " >ВИНО: </h1>
+                    <h1 v-if="language == 'en' " >WINE: </h1>
+                </span>
+                
+                <br>
+                <span class="position">
+                    <span class="name">
+                        <h2>CRICOVA VIORICA SEC</h2>
+                    </span>
+                    <span>
+                        <h2>150 {{menu.cost}}</h2>
+                    </span>
+                </span>
+                <span class="position">
+                    <span class="name">
+                        <h2>CRICOVA FETEASCA NEAGRA SEC</h2>
+                    </span>
+                    <span>
+                        <h2>150 {{menu.cost}}</h2>
+                    </span>
+                </span>
+                <br>
+
+                <span class="position">
+                    <span class="name">
+                        <h2>CRICOVA CABERNET-SAUVIGNON “VINTAGE"</h2>
+                    </span>
+                    <h2>140 {{menu.cost}}</h2>
+                </span>
+                <span class="position">
+                    <span class="name">
+                        <h2>CRICOVA CODRU "VINTAGE"</h2>
+                    </span>
+                    <h2>140 {{menu.cost}}</h2>
+                </span>
+                <span class="position">
+                    <span class="name">
+                        <h2>CRICOVA CHARDONNAY "VINTAGE"</h2>
+                    </span>
+                    <h2>140 {{menu.cost}}</h2>
+                </span>
+                <br>
+
+                <span class="position">
+                    <span class="name">
+                        <h2>CRICOVA ROSE DEMIDULCE</h2>
+                    </span>
+                    <h2>120 {{menu.cost}}</h2>
+                </span> 
+                <span class="position">
+                    <span class="name">
+                        <h2>CRICOVA MUSCAT DEMIDULCE</h2>
+                    </span>
+                    <h2>120 {{menu.cost}}</h2>
+                </span> 
+                <span class="position">
+                    <span class="name">
+                        <h2>CRICOVA ISABELLA DEMIDULCE</h2>
+                    </span>
+                    <h2>120 {{menu.cost}}</h2>
+                </span>
+                <span class="position">
+                    <span class="name">
+                        <h2>CRICOVA MERLOT DEMIDULCE</h2>
+                    </span>
+                    <h2>120 {{menu.cost}}</h2>
+                </span>
+
+
+            </div>
+        </section>
+    </div>
+    -->

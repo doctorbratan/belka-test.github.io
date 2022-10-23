@@ -210,6 +210,7 @@ const component = new Vue({
         category: selected_category,
         categories: categories,
         main_menu: menu,
+        loading: false,
         menu: undefined
     },
     methods:{
@@ -255,14 +256,19 @@ const component = new Vue({
            this.category = page
            localStorage.setItem('category', page);
 
-           component.setMenu();
+           component.setMenu(); 
 
-           const el = this.$refs['menu'];
-           el.scrollIntoView({behavior: 'smooth'});
-           
+           setTimeout(() => {
+            const el = this.$refs['menu'];
+            el.scrollIntoView({behavior: 'smooth'});
+           }, 600);
         },
         setMenu() {
+            this.loading = true
             this.menu = menu.find( item => item.page === this.category);
+            setTimeout(() => {
+                this.loading = false
+            }, 500);
         }
     },
     beforeMount() {
