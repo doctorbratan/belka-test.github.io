@@ -141,7 +141,7 @@ const categories = [
     {
         page: 3,
         src: "./icons/3.svg",
-        ru_name: "Чаи & <br> Кофе",
+        ru_name: "Чаи & Кофе",
         en_name: "Hot & Yummy"
     },
     {
@@ -171,13 +171,13 @@ const categories = [
     {
         page: 8,
         src: "./icons/8.svg",
-        ru_name: "Коктейли <br> Б/A",
+        ru_name: "Коктейли",
         en_name: "Cocktails"
     },
     {
         page: 9,
         src: "./icons/9.svg",
-        ru_name: "Коктейли <br> Алкогольные",
+        ru_name: "Коктейли 18+",
         en_name: "Shots"
     },
     {
