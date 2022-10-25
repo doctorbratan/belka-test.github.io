@@ -128,74 +128,74 @@ if (candidate_category) {
 const categories = [
     {
         page: 1,
-        src: "./icons/Кальян.svg",
+        src: "./icons/1.svg",
         ru_name: "Кальяны",
         en_name: "Hookahs"
     },
     {
         page: 2,
-        src: "./icons/Снежинка.svg",
+        src: "./icons/2.svg",
         ru_name: "Зимняя Карта",
         en_name: "Winter map"
     },
     {
         page: 3,
-        src: "./icons/Горячее.svg",
-        ru_name: "Чаи & Кофе",
+        src: "./icons/3.svg",
+        ru_name: "Чаи & <br> Кофе",
         en_name: "Hot & Yummy"
     },
     {
         page: 4,
-        src: "./icons/Напитки.svg",
+        src: "./icons/4.svg",
         ru_name: "Десерты",
         en_name: "Drinks"
     },
     {
         page: 5,
-        src: "./icons/Sushimi.svg",
-        ru_name: "Пицца & Суши",
+        src: "./icons/5.svg",
+        ru_name: "Пицца & <br> Суши",
         en_name: "Sushimi"
     },
     {
         page: 6,
-        src: "./icons/BroRolls.svg",
+        src: "./icons/6.svg",
         ru_name: "ФастФуд",
         en_name: "BroRolls"
     },
     {
         page: 7,
-        src: "./icons/Лимонады.svg",
-        ru_name: "Напитки & Лимонады",
+        src: "./icons/7.svg",
+        ru_name: "Напитки & <br> Лимонады",
         en_name: "Lemonade"
     },
     {
         page: 8,
-        src: "./icons/Когтейли.svg",
-        ru_name: "Коктейли б/а",
+        src: "./icons/8.svg",
+        ru_name: "Коктейли <br> Б/A",
         en_name: "Cocktails"
     },
     {
         page: 9,
-        src: "./icons/Шоты.svg",
-        ru_name: "Коктейли алк.",
+        src: "./icons/9.svg",
+        ru_name: "Коктейли <br> Алкогольные",
         en_name: "Shots"
     },
     {
         page: 10,
-        src: "./icons/Крепкий Алгокголь и Пиво.svg",
-        ru_name: "Шоты & Крепкое",
+        src: "./icons/10.svg",
+        ru_name: "Шоты & <br> Крепкое",
         en_name: "Strong & Beer"
     },
     {
         page: 11,
-        src: "./icons/Снэки.svg",
-        ru_name: "Пиво & Снэки",
+        src: "./icons/11.svg",
+        ru_name: "Пиво & <br> Снэки",
         en_name: "Snacks"
     },
     {
         page: 12,
-        src: "./icons/Винная Карта.svg",
-        ru_name: "Винная Карта & Нарезки",
+        src: "./icons/12.svg",
+        ru_name: "Винная Карта & <br> Нарезки",
         en_name: "Wine map"
     }
 

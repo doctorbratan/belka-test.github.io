@@ -62,8 +62,7 @@
             <div class="categories">
                 <span v-for="category in categories" v-on:click="setCategory(category.page)" class="category-span" >
                     <img class="category-icon" v-bind:src="category.src" v-bind:alt="category.name">
-                    <b v-bind:class="categoryColor(category.page)"
-                    >{{category.name}}</b>
+                    <b v-bind:class="categoryColor(category.page)" v-html="category.name"></b>
                 </span>
             </div>
 

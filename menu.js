@@ -155,7 +155,7 @@ const menu =
         },
         {
             page: 3,
-            category: "Горячее & Вкусняшки",
+            category: "Чай & Кофе",
             background: "background-image: url('./backgrounds/page-3.svg');",
             blocks: 
             [
@@ -302,7 +302,15 @@ const menu =
                             cost: 60
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            page: 4,
+            category: "Десерты",
+            background: "background-image: url('./backgrounds/page-4.svg');",
+            blocks: 
+            [
                 {
                     en_title: "DESSERTS:",
                     ru_title: "ДЕСЕРТЫ:",
@@ -345,78 +353,8 @@ const menu =
             ]
         },
         {
-            page: 4,
-            category: "Напитки",
-            background: "background-image: url('./backgrounds/page-4.svg');",
-            blocks: 
-            [
-                {
-                    en_title: "DRINKS:",
-                    ru_title: "НАПИТКИ:",
-                    positions:
-                    [
-                        {
-                            en_name: "COLA",
-                            ru_name: "КОЛА",
-                            cost: 32
-                        },
-                        {
-                            en_name: "COLA IN GLASS",
-                            ru_name: "КОЛА СТЕКЛО",
-                            cost: 26
-                        },
-                        {
-                            en_name: "FANTA",
-                            ru_name: "ФАНТА",
-                            cost: 32
-                        },
-                        {
-                            en_name: "SPRITE",
-                            ru_name: "СПРАЙТ",
-                            cost: 32
-                        },
-                        {
-                            en_name: "RED BULL",
-                            ru_name: "RED BULL",
-                            cost: 45
-                        },
-                        {
-                            en_name: "ICE TEA",
-                            ru_name: "ХОЛОДНЫЙ ЧАЙ",
-                            cost: 32
-                        },
-                        {
-                            en_name: "Schweppes",
-                            ru_name: "Schweppes",
-                            cost: 32
-                        },
-                        {
-                            en_name: "A GLASS OF JUICE",
-                            ru_name: "СОК В СТАКАНЕ ",
-                            cost: 16
-                        },
-                        {
-                            en_name: "A BOTTLE OF JUICE",
-                            ru_name: "СОК В БУТЫЛОЧКЕ ",
-                            cost: 22
-                        },
-                        {
-                            en_name: "JUICE",
-                            ru_name: "СОК УПАКОВКА",
-                            cost: 50
-                        },
-                        {
-                            en_name: "WATER",
-                            en_description: "( SPARKLING OM )",
-                            ru_name: "ОМ",
-                            cost: 16
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             page: 5,
+            category: "Пицца & Суши",            
             background: "background-image: url('./backgrounds/page-5.svg');",
             blocks:
             [
@@ -632,6 +570,7 @@ const menu =
         },
         {
             page: 6,
+            category: "ФастФуд",
             background: "background-image: url('./backgrounds/page-6.svg');",
             blocks:
             [
@@ -804,9 +743,73 @@ const menu =
         },
         {
             page: 7,
+            category: "Напитки и Лимонады",
             background: "background-image: url('./backgrounds/page-7.svg');",
             blocks:
             [
+                {
+                    en_title: "DRINKS:",
+                    ru_title: "НАПИТКИ:",
+                    positions:
+                    [
+                        {
+                            en_name: "COLA",
+                            ru_name: "КОЛА",
+                            cost: 32
+                        },
+                        {
+                            en_name: "COLA IN GLASS",
+                            ru_name: "КОЛА СТЕКЛО",
+                            cost: 26
+                        },
+                        {
+                            en_name: "FANTA",
+                            ru_name: "ФАНТА",
+                            cost: 32
+                        },
+                        {
+                            en_name: "SPRITE",
+                            ru_name: "СПРАЙТ",
+                            cost: 32
+                        },
+                        {
+                            en_name: "RED BULL",
+                            ru_name: "RED BULL",
+                            cost: 45
+                        },
+                        {
+                            en_name: "ICE TEA",
+                            ru_name: "ХОЛОДНЫЙ ЧАЙ",
+                            cost: 32
+                        },
+                        {
+                            en_name: "Schweppes",
+                            ru_name: "Schweppes",
+                            cost: 32
+                        },
+                        {
+                            en_name: "A GLASS OF JUICE",
+                            ru_name: "СОК В СТАКАНЕ ",
+                            cost: 16
+                        },
+                        {
+                            en_name: "A BOTTLE OF JUICE",
+                            ru_name: "СОК В БУТЫЛОЧКЕ ",
+                            cost: 22
+                        },
+                        {
+                            en_name: "JUICE",
+                            ru_name: "СОК УПАКОВКА",
+                            cost: 50
+                        },
+                        {
+                            en_name: "WATER",
+                            en_description: "( SPARKLING OM )",
+                            ru_name: "ОМ",
+                            cost: 16
+                        }
+                    ]
+                },
                 {
                     en_title: "LEMONADES:",
                     ru_title: "ЛИМОНАДЫ:",
@@ -861,6 +864,7 @@ const menu =
         },
         {
             page: 8,
+            category: "Коглели б/a",
             background: "background-image: url('./backgrounds/page-8.svg');",
             blocks:
             [
@@ -912,7 +916,15 @@ const menu =
                             cost: 45
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            page: 9,
+            category: "КОКТЕЙЛИ Алк.",
+            background: "background-image: url('./backgrounds/page-9.svg');",
+            blocks:
+            [
                 {
                     adult: true,
                     en_title: "ALCOHOLIC COCKTAILS:",
@@ -1089,11 +1101,12 @@ const menu =
                         }
                     ]
                 }
-            ]
+            ]  
         },
         {
-            page: 9,
-            background: "background-image: url('./backgrounds/page-9.svg');",
+            page: 10,
+            category: "Шоты & Крепкое",
+            background: "background-image: url('./backgrounds/page-10.svg');",
             blocks:
             [
                 {
@@ -1243,14 +1256,7 @@ const menu =
                             ru_description: "ВЫПЕЙ ВСЕ ШОТЫ ЗА 45 СЕКУНД И ПОЛУЧИ БЕСПЛАТНЫЙ КАЛЬЯН"
                         }
                     ]
-                }
-            ]
-        },
-        {
-            page: 10,
-            background: "background-image: url('./backgrounds/page-10.svg');",
-            blocks:
-            [
+                },
                 {
                     adult: true,
                     en_title: "STRONG ALCOHOL:",
@@ -1321,6 +1327,15 @@ const menu =
                         }
                     ]
                 },
+            ]
+        },
+        {
+            page: 11,
+            category: "Пиво & Снэки",
+            background: "background-image: url('./backgrounds/page-11.svg');",
+            blocks:
+            [
+               
                 {
                     adult: true,
                     en_title: "BEER:",
@@ -1371,12 +1386,6 @@ const menu =
                         }
                     ]
                 },
-            ]
-        },
-        {
-            page: 11,
-            background: "background-image: url('./backgrounds/page-11.svg');",
-            blocks: [
                 {
                     en_title: "SNACKS:",
                     ru_title: "СНЭКИ:",
@@ -1411,31 +1420,11 @@ const menu =
                         }
                     ]
                 },
-                {
-                    en_title: "CUTTING:",
-                    ru_title: "НАРЕЗКИ:",
-                    positions:
-                    [
-                        {
-                            en_name: "CITRUS",
-                            en_description: "( ORANGE, LEMON, GRAPEFRUIT )",
-                            ru_name: "ЦИТРУСОВАЯ",
-                            ru_description: "( АПЕЛЬСИН, ЛИМОН, ГРЕЙПФРУТ )",
-                            cost: 70
-                        },
-                        {
-                            en_name: "FRUIT",
-                            en_description: "( BANANA, APPLE, ORANGE )",
-                            ru_name: "ФРУКТОВАЯ",
-                            ru_description: "( БАНАН, ЯБЛОКО, АПЕЛЬСИН, КИВИ )",
-                            cost: 70
-                        }
-                    ]
-                }
             ]
         },
         {
             page: 12,
+            ceagory: "Винная карта & Нарезки",
             background: "background-image: url('./backgrounds/page-12.png');",
             blocks: 
             [
@@ -1549,7 +1538,28 @@ const menu =
                             cost: 120
                         }
                     ]
-                } 
+                },
+                {
+                    en_title: "CUTTING:",
+                    ru_title: "НАРЕЗКИ:",
+                    positions:
+                    [
+                        {
+                            en_name: "CITRUS",
+                            en_description: "( ORANGE, LEMON, GRAPEFRUIT )",
+                            ru_name: "ЦИТРУСОВАЯ",
+                            ru_description: "( АПЕЛЬСИН, ЛИМОН, ГРЕЙПФРУТ )",
+                            cost: 70
+                        },
+                        {
+                            en_name: "FRUIT",
+                            en_description: "( BANANA, APPLE, ORANGE )",
+                            ru_name: "ФРУКТОВАЯ",
+                            ru_description: "( БАНАН, ЯБЛОКО, АПЕЛЬСИН, КИВИ )",
+                            cost: 70
+                        }
+                    ]
+                }
             ]
         }
 ]

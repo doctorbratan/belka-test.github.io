@@ -10,18 +10,3 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Vin Slab Pro';
-    src: url('VinSlabPro-Light.eot');
-    src: url('VinSlabPro-Light.eot?#iefix') format('embedded-opentype'),
-        url('VinSlabPro-Light.woff2') format('woff2'),
-        url('VinSlabPro-Light.woff') format('woff'),
-        url('VinSlabPro-Light.ttf') format('truetype'),
-        url('VinSlabPro-Light.svg#VinSlabPro-Light') format('svg');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-
-
