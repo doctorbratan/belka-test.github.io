@@ -141,61 +141,61 @@ const categories = [
     {
         page: 3,
         src: "./icons/Горячее.svg",
-        ru_name: "Горячее & Вкусняшки",
+        ru_name: "Чаи & Кофе",
         en_name: "Hot & Yummy"
     },
     {
         page: 4,
         src: "./icons/Напитки.svg",
-        ru_name: "Напитки",
+        ru_name: "Десерты",
         en_name: "Drinks"
     },
     {
         page: 5,
         src: "./icons/Sushimi.svg",
-        ru_name: "Sushimi",
+        ru_name: "Пицца & Суши",
         en_name: "Sushimi"
     },
     {
         page: 6,
         src: "./icons/BroRolls.svg",
-        ru_name: "BroRolls",
+        ru_name: "ФастФуд",
         en_name: "BroRolls"
     },
     {
         page: 7,
         src: "./icons/Лимонады.svg",
-        ru_name: "Лимонады",
+        ru_name: "Напитки & Лимонады",
         en_name: "Lemonade"
     },
     {
         page: 8,
         src: "./icons/Когтейли.svg",
-        ru_name: "Коктейли",
+        ru_name: "Коктейли б/а",
         en_name: "Cocktails"
     },
     {
         page: 9,
         src: "./icons/Шоты.svg",
-        ru_name: "Шоты",
+        ru_name: "Коктейли алк.",
         en_name: "Shots"
     },
     {
         page: 10,
         src: "./icons/Крепкий Алгокголь и Пиво.svg",
-        ru_name: "Крепкое & Пиво",
+        ru_name: "Шоты & Крепкое",
         en_name: "Strong & Beer"
     },
     {
         page: 11,
         src: "./icons/Снэки.svg",
-        ru_name: "Снэки",
+        ru_name: "Пиво & Снэки",
         en_name: "Snacks"
     },
     {
         page: 12,
         src: "./icons/Винная Карта.svg",
-        ru_name: "Винная Карта",
+        ru_name: "Винная Карта & Нарезки",
         en_name: "Wine map"
     }
 
