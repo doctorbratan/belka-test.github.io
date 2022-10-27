@@ -1111,6 +1111,76 @@ const menu =
             [
                 {
                     adult: true,
+                    en_title: "STRONG ALCOHOL:",
+                    ru_title: "КРЕПКИЙ АЛКОГОЛЬ:",
+                    positions:
+                    [
+                        {
+                            en_name: "WHISKEY",
+                            ru_name: "ВИСКИ",
+                            cost: "50/55"
+                        },
+
+                        {
+                            en_name: "Jack Daniel's",
+                            ru_name: "Jack Daniel's",
+                            cost: "60"
+                        },
+
+                        {
+                            en_name: "BOURBON",
+                            ru_name: "БУРБОН",
+                            cost: 55
+                        },
+                        {
+                            en_name: "ROM",
+                            ru_name: "РОМ",
+                            cost: 50
+                        },
+                        {
+                            en_name: "TEQUILA",
+                            ru_name: "ТЕКИЛА",
+                            cost: 50
+                        },
+                        {
+                            en_name: "JAEGERMEISTER",
+                            ru_name: "ЯГЕРМЕЙСТЕР",
+                            cost: 50
+                        },
+                        {
+                            en_name: "COGNAC",
+                            ru_name: "КОНЬЯК",
+                            cost: "42/50"
+                        },
+                        {
+                            en_name: "VODKA",
+                            ru_name: "ВОДКА",
+                            cost: 50
+                        },
+                        {
+                            en_name: "ABSINTHE",
+                            ru_name: "АБСЕНТ",
+                            cost: 55
+                        },
+                        {
+                            en_name: "BEILIS",
+                            ru_name: "БЕЙЛИС",
+                            cost: 45
+                        },
+                        {
+                            en_name: "MARTINI",
+                            ru_name: "МАРТИНИ",
+                            cost: 50
+                        },
+                        {
+                            en_name: "GIN",
+                            ru_name: "ДЖИН",
+                            cost: 45
+                        }
+                    ]
+                },
+                {
+                    adult: true,
                     en_title: "SHOTS:",
                     ru_title: "ШОТЫ:",
                     positions:
@@ -1256,77 +1326,7 @@ const menu =
                             ru_description: "ВЫПЕЙ ВСЕ ШОТЫ ЗА 45 СЕКУНД И ПОЛУЧИ БЕСПЛАТНЫЙ КАЛЬЯН"
                         }
                     ]
-                },
-                {
-                    adult: true,
-                    en_title: "STRONG ALCOHOL:",
-                    ru_title: "КРЕПКИЙ АЛКОГОЛЬ:",
-                    positions:
-                    [
-                        {
-                            en_name: "WHISKEY",
-                            ru_name: "ВИСКИ",
-                            cost: "50/55"
-                        },
-
-                        {
-                            en_name: "Jack Daniel's",
-                            ru_name: "Jack Daniel's",
-                            cost: "60"
-                        },
-
-                        {
-                            en_name: "BOURBON",
-                            ru_name: "БУРБОН",
-                            cost: 55
-                        },
-                        {
-                            en_name: "ROM",
-                            ru_name: "РОМ",
-                            cost: 50
-                        },
-                        {
-                            en_name: "TEQUILA",
-                            ru_name: "ТЕКИЛА",
-                            cost: 50
-                        },
-                        {
-                            en_name: "JAEGERMEISTER",
-                            ru_name: "ЯГЕРМЕЙСТЕР",
-                            cost: 50
-                        },
-                        {
-                            en_name: "COGNAC",
-                            ru_name: "КОНЬЯК",
-                            cost: "42/50"
-                        },
-                        {
-                            en_name: "VODKA",
-                            ru_name: "ВОДКА",
-                            cost: 50
-                        },
-                        {
-                            en_name: "ABSINTHE",
-                            ru_name: "АБСЕНТ",
-                            cost: 55
-                        },
-                        {
-                            en_name: "BEILIS",
-                            ru_name: "БЕЙЛИС",
-                            cost: 45
-                        },
-                        {
-                            en_name: "MARTINI",
-                            ru_name: "МАРТИНИ",
-                            cost: 50
-                        },
-                        {
-                            en_name: "GIN",
-                            ru_name: "ДЖИН",
-                            cost: 45
-                        }
-                    ]
-                },
+                }
             ]
         },
         {
