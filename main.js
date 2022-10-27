@@ -141,7 +141,7 @@ const categories = [
     {
         page: 3,
         src: "./icons/3.svg",
-        ru_name: "Чаи & Кофе",
+        ru_name: "Чаи & <br> Кофе",
         en_name: "Hot & Yummy"
     },
     {
