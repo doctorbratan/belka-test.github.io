@@ -183,7 +183,7 @@ const categories = [
     {
         page: 10,
         src: "./icons/10.svg",
-        ru_name: "Шоты & <br> Крепкое",
+        ru_name: "Крепкое <br> & Шоты",
         en_name: "Strong & Beer"
     },
     {
@@ -195,7 +195,7 @@ const categories = [
     {
         page: 12,
         src: "./icons/12.svg",
-        ru_name: "Винная Карта & <br> Нарезки",
+        ru_name: "Винная Карта <br>& Нарезки",
         en_name: "Wine map"
     }
 

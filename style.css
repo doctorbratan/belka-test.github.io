@@ -102,7 +102,7 @@ main {
 }
 
 .category-span {
-    margin: 7px;
+    margin: 9px;
     cursor: pointer;
     display: flex;
     flex-direction: column;
@@ -240,11 +240,11 @@ small {
     /* Выбор Категории */
 
     .category-icon {
-        width: 33px;
+        width: 35px;
     }
     
     .category-name {
-        font-size: 10px;
+        font-size: 11px;
     }
 
     /* Выбор Категории */
