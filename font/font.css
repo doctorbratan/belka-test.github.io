@@ -10,3 +10,18 @@
     font-style: normal;
 }
 
+
+
+@font-face {
+    font-family: 'Znikomit';
+    src: url('Znikomit.eot');
+    src: url('Znikomit.eot?#iefix') format('embedded-opentype'),
+        url('Znikomit.woff2') format('woff2'),
+        url('Znikomit.woff') format('woff'),
+        url('Znikomit.ttf') format('truetype'),
+        url('Znikomit.svg#Znikomit') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

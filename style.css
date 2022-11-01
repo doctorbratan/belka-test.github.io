@@ -16,6 +16,8 @@ body {
 }
 
 
+
+
 #swipe {
     width: 10%;
     position: fixed;
@@ -128,6 +130,7 @@ main {
     padding: 12px 0px;
     width: 100%;
     background-image: url('./icons/Фон-Перегородка.svg');
+    background-position: center;
 }
 
 
@@ -174,10 +177,12 @@ main {
     align-items: center;
 }
 
-h1 , h2 , h3,  small {
+
+ h2 , h3,  small {
+    text-transform: uppercase;
     font-weight: normal;
     color: white;
-    font-family: 'belka';
+    font-family: 'Znikomit';
 }
 
 h3 {
@@ -263,15 +268,15 @@ small {
     }
 
     h1 {
-        font-size: 24px;
+        font-size: 18px;
     }
     
     h2 {
-        font-size: 17px;
+        font-size: 13px;
     }
 
     small {
-        font-size: 12px;
+        font-size: 11px;
     } 
 
     .name {
