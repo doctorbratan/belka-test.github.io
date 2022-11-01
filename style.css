@@ -180,9 +180,9 @@ main {
 
  h2 , h3,  small {
     text-transform: uppercase;
-    font-weight: normal;
+    font-weight: 700;
     color: white;
-    font-family: 'Znikomit';
+    font-family: 'Bitter';
 }
 
 h3 {

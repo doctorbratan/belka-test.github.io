@@ -13,15 +13,16 @@
 
 
 @font-face {
-    font-family: 'Znikomit';
-    src: url('Znikomit.eot');
-    src: url('Znikomit.eot?#iefix') format('embedded-opentype'),
-        url('Znikomit.woff2') format('woff2'),
-        url('Znikomit.woff') format('woff'),
-        url('Znikomit.ttf') format('truetype'),
-        url('Znikomit.svg#Znikomit') format('svg');
+    font-family: 'Bitter';
+    src: url('Bitter-Thin.eot');
+    src: url('Bitter-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Bitter-Thin.woff2') format('woff2'),
+        url('Bitter-Thin.woff') format('woff'),
+        url('Bitter-Thin.ttf') format('truetype'),
+        url('Bitter-Thin.svg#Bitter-Thin') format('svg');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
 }
+
 
